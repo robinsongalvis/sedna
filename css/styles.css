@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.hola{
+    background-image: url("../Assets/img/hero.jpg");
+    height: 750px;
+}
+.otr{
+    width: 100%;
+    height: 91px;
+}
+.nav{
+ background: transparent;
+ padding: 27px 127px;
+ height: auto;
+ box-shadow: 0 0 0 0;
+ font-size: 13px;
+}
+.brand-logo{
+    width: 99px;
+    height: 19px;
+}
+.spr{
+    margin: 0 0 0 160px;
+}
+nav ul li  a {
+    font-size: 13px;
+}
+.boton{
+    padding: 2px 40px;
+    background: transparent;
+    border: solid white 2px;
+    border-radius: 40px;
+    width: 138.45px;
+    height: 38px;
+    margin-top: 10px;
+}
+nav ul a {
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
+    font-size: 1rem;
+    color: #fff;
+    display: block;
+    padding: 0 15px;
+    cursor: pointer;
+    padding-right: 25px;
+}
