@@ -1,34 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Materialize</title>
-	<link rel="stylesheet" href="css/materialize.css">
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
-</head>
-<body>
-<section class="hola">
-    <header class="otr">
+   <head>
+      <meta charset="utf-8">
+      <title>
+         Materialize
+      </title>
+      <link href="css/materialize.css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link href="css/styles.css" rel="stylesheet" type="text/css">
+   </head>
+   <body>
+      <section class="fondo">
+         <header>
             <nav class="nav">
-                <div class="nav-wrapper">
-                    <a href="#" class="brand-logo"><img src="assets/img/sedna-logo.png"></a>
-                    <ul id="nav-mobile" class="left hide-on-med-and-down">
-                        <li class="spr"><a href="">FEATURES</a></li>
+               <div class="container">
+                  <div class="row">
+                     <div class="col s2">
+                        <a class="brand-logo" href="#">
+                        <img src="assets/img/sedna-logo.png"/>
+                        </a>
+                     </div>
+                     <ul class="left hide-on-med-and-down" id="nav-mobile">
+                        <li><a href="">FEATURES</a></li>
                         <li><a href="">ASSETS</a></li>
                         <li><a href="">BLOG</a></li>
                         <li><a href="">DOWNLOAD</a></li>
-                    </ul>
-                    <ul class=" right hide-on-med-and-down" style="top: 26px;">
-                        <li><a href="" class="login">LOG IN</a></li>
-                        <li><a href="" class="boton" class="btn-white btn-small">Sign up</a></li> </ul>
-                </div>
+                     </ul>
+                     <ul class="right hide-on-med-and-down" style="top: 26px;">
+                        <li><a class="login" href="">LOG IN</a></li>
+                        <li><a class="btn-white btn-small" href="" id="btn">Sign up</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <h1 class="desing">
+                  Design, collaborate, win!
+               </h1>
+               <h2 class="introducing">
+                  Introducing “Sedna”. A responsive one page website, designed & developed exclusively for Codrops.
+               </h2>
             </nav>
-    </header>
-</section>
+            <div class="row">
+               <div class="col s12 botones">
+                  <a class="btn-white btn-small" id="boton1" href="" id="btn2">DOWNLOAD </a>
+                  <a class="btn-white btn-small" id="boton2"       href="" id="btn">LEARN MORE</a>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col s12 botones">
+                  <i   class="material-icons flecha ">keyboard_arrow_down</i>
+               </div>
+            </div>
+         </header>
+      </section>
 
-<script src="js/materialize.min.js"></script>
-
-
-</body>
+      <div class="contenedor2">
+         <div class="row">
+           <div class="col s12 m12 l4">
+            <div class="intro-icon"><img class="img" src="assets/img/protractor.png"></div>
+            <div class="intro-content">
+               <h5 class="titulos">EASILY CUSTOMISED</h5>
+             <p>Easily customise Sedna to suit your start up, portfolio or product. Take advantage of the layered Sketch file and bring your product to life.</p>
+          </div>
+             
+             
+          </div>
+          <div class="col s12 m12 l4">
+            <div class="intro-icon">
+               <img class="img left" src="assets/img/light-bulb.png">
+               
+            </div>
+            <div class="intro-content">
+               <h5 class="titulos"> MODERN DESIGN</h5>
+               <p>Designed with modern trends and techniques in mind, Sedna will help your product stand out in an already saturated market.</p>
+            </div>
+             
+          </div>
+          <div class="col s12 m12 l4">
+            <div class="intro-icon">
+               <img class="img left" src="assets/img/atom.png">
+            </div>
+            <div class="intro-content">
+               <h5 class="titulos">RESPONSIVE DEVELOPMENT</h5>
+               <p>Built using the latest web technologies like html5, css3, and jQuery, rest assured Sedna will look smashing on every device under the sun.</p>
+            </div>
+             
+            </div>
+         </div>
+      </div>
+      <script src="js/materialize.min.js"></script>
+   </body>
 </html>
